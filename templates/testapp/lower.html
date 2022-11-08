@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lower</title>
+</head>
+<body>
+<h1>Welcome to test app.</h1><hr>
+{% for i in my_data %}
+<ul>
+    <li>{{i.name | lower }}</li>
+    <li>{{i.subject | lower}}</li>
+    <li>{{i.depart | lower }}</li>
+    <li>{{i.date | lower }}</li><hr>
+</ul>
+{% endfor %}
+</body>
+</html>
